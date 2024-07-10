@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className="desktopElement">
    <Link className="desktopMenuItem" activeClass="active" to="intro" spy={true} smooth={true} offset={-100}>Home</Link>
    <Link className="desktopMenuItem" activeClass="active" to="skills" spy={true} smooth={true} offset={-50}>About</Link>
-   <Link className="desktopMenuItem">Journey</Link>
+   <Link className="desktopMenuItem" activeClass="active" to="journey" spy={true} smooth={true} offset={-50}>Journey</Link>
    <Link className="desktopMenuItem">Recognitions</Link>
    
    
